@@ -1,5 +1,3 @@
---[[DoneGUI Update 10
-Add DennisOn100#4950 For Any Questions]]--
 local p = game.Players.LocalPlayer
 local whitelist = {
    [p.Name] = true
@@ -7,7 +5,7 @@ local whitelist = {
 
 if whitelist[p.Name] then
 	game.StarterGui:SetCore("SendNotification", {
-Title = "[L] To Toggle The GUI";
+Title = "[L] To Toggle The GUI Created by Dennis The Menace#9481";
 Text = "Thank You for using my GUI <3, [L] also closes the GUI";
 Duration = 15;
 })
@@ -19,7 +17,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 end)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hehe";
-Text = "Anti-Afk Ran and Auto-Thirst Naturally Upon Execution; Press J to toggle auto thirst. -DennisOn100#4950"; 
+Text = "Anti-Afk Ran and Auto-Thirst Naturally Upon Execution; Press J to toggle auto thirst. -Dennis The Menace#9481"; 
 Duration = 10; })
 print("Anti-AFK Ran")
 end
