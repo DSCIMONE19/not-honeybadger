@@ -6,7 +6,7 @@ local whitelist = {
 if whitelist[p.Name] then
 	game.StarterGui:SetCore("SendNotification", {
 Title = "Press [Y] To Toggle";
-Text = "By Dennis The Menace#9481";
+Text = "By Dennis The Menace#9481 All other honeybadgers are outdated";
 Duration = 15;
 })
 local vu = game:GetService("VirtualUser")
